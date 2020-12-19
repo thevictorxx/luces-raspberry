@@ -26,5 +26,5 @@ app.get('/off', (req,res)=>{
 });
 
 app.listen(port, () =>{
-    console.log('Corriendo');
+    console.log(`Servidor corriendo en puerto ${port}`);
 });
